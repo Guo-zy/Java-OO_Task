@@ -1,12 +1,10 @@
 package practice08;
 
-import practice07.Klass;
-import practice07.Student;
 
 public class Teacher extends Person{
-    protected practice07.Klass klass;
+    protected Klass klass;
 
-    public Teacher(int id , String name, int age, practice07.Klass klass) {
+    public Teacher(int id , String name, int age, Klass klass) {
         super(id,name, age);
         this.klass = klass;
     }
